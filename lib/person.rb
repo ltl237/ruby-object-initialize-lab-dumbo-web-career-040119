@@ -1,7 +1,7 @@
 require_relative 
 
 class Person(name)
-  def name
+  def initialize(name)
     @name = name
   end
 end
